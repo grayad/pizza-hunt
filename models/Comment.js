@@ -1,7 +1,7 @@
 const { Schema, model } = require("mongoose");
 const { schema } = require("./Pizza");
 
-const CommentSchema = new schema({
+const CommentSchema = new Schema({
   writtenBy: {
     type: String,
   },
